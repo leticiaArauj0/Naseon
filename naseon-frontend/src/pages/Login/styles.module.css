@@ -1,0 +1,51 @@
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.logo {
+    height: 6rem;
+}
+
+.loginContainer, form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.loginContainer {
+    gap: 3rem;
+}
+
+.loginContainer form {
+    gap: 0.8rem;
+}
+
+.loginContainer form span {
+    align-self: flex-end;
+    font-size: 0.875rem;
+}
+
+.loginContainer strong {
+    color: #0C7DE5;
+    cursor: pointer;
+}
+
+strong:hover {
+    opacity: 0.7;
+    transition: 0.25s ease all;
+}
+
+.loginContainer form .criarConta {
+    align-self: center;
+    font-weight: 500;
+}
+
+.criarConta strong {
+    text-decoration: underline;
+}
+
+.imgRight {
+    height: 100vh;
+}

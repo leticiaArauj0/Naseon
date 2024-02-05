@@ -1,0 +1,105 @@
+.Presentation {
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.line {
+    width: 95%;
+    opacity: 0.1;
+    border: 0.5px solid black;
+    margin: auto;
+}
+
+.logo {
+    height: 3.5rem;
+} 
+
+.user {
+    height: 2.5rem;
+    cursor: pointer;
+}
+
+.user:hover {
+    opacity: 0.7;
+    transition: 0.3 ease all;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    padding: 3rem 0;
+}
+
+main img {
+    height: 5rem;
+}
+
+main strong {
+    color: #434E5E;
+}
+
+main button {
+    width: 100%;
+
+    background-color: #8CB8FA;
+    color: rgba(0, 0, 0, 0.7);
+
+    font-size: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+
+    padding: 0.8rem;
+    margin-top: 2rem;
+}
+
+main a button:hover {
+    opacity: 0.7;
+    transition: 0.3s ease all;
+}
+
+main a {
+    text-decoration: none;
+    width: 18%;
+}
+
+footer {
+    background-color: #ECF5FF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    padding: 2rem 0;
+
+    position: absolute;
+    bottom: 0;
+}
+
+footer strong {
+    color: #1F1F1F;
+}
+
+footer span {
+    color: #02376F;
+}
+
+footer p {
+    opacity: 0.7;
+    padding: 0 8rem;
+    text-align: justify;
+}
